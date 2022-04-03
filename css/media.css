@@ -1,0 +1,870 @@
+
+/* ==== ==== Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+
+/* === === X-sm Common Start === ==== */
+
+    .item_top h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .item_top p {
+        padding-top: 15px;
+        padding-bottom: 22px;
+    }
+
+/* === === X-sm Header Start === ==== */
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .navbar-toggler .bar_sqr {
+        height: 40px;
+        width: 42px;
+        background: transparent;
+        border: 2px solid #998675;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        position: relative;
+        font-size: 18px;
+    }
+
+    .navbar-nav .nav-link::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        content: '';
+        height: 1px;
+        width: 0;
+        background: #c7b299;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+}
+
+    .navbar-nav .nav-link:hover::after {
+        opacity: 1;
+        visibility: visible;
+        width: 210px;
+    }
+
+    .fix_head_bg {
+        background: #221e1c;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .navbar-brand {
+        transform: scale(0.8);
+    }
+
+
+/* === === X-sm Banner Start === ==== */
+
+    .ban_olay {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    .ban_text h3 {
+        font-size: 22px;
+    }
+
+    .ban_text h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    
+    .ban_text p {
+        font-size: 13px;
+        padding: 0px 40px;
+        margin-bottom: 35px;
+    }
+
+    .arrow_right {
+        font-size: 20px;
+        right: 15px;
+    }
+
+    .arrow_left {
+        font-size: 20px;
+        left: 15px;
+    }
+
+/* === === X-sm Service Start === ==== */
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .serv_text h3 {
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+
+    .serv_text p {
+        padding-top: 5px;
+    }
+
+    .serv_text p::after {
+        bottom: -20px;
+    }
+
+    .serv_text p::before {
+        bottom: -20px;
+    }
+
+    .serv_item {
+        padding: 0 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+/* === === X-sm Idea Start === ==== */
+
+    #idea {
+        padding-top: 65px;
+    }
+
+/* === === X-sm Purchase Start === ==== */
+
+    .purchase_text h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .purchase_text p {
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+
+    .item_button {
+        text-align: center!important;
+    }
+
+/* === === X-sm Project Start === ==== */
+
+    #project {
+        padding: 60px 0;
+    }
+
+    .project_menu {
+        margin-bottom: 25px;
+    }
+
+    .project_menu button {
+        padding: 8px 12px 7px 12px;
+        margin-bottom: 10px;
+    }
+
+/* === === X-sm Video Start === ==== */
+
+    .video_olay {
+        padding-top: 100px;
+        padding-bottom: 65px;
+        background: rgba(17, 17, 17, 0.5);
+    }
+
+    .video_text h3 {
+        font-weight: 500;
+        color: #fff;
+        padding-top: 35px;
+        padding-bottom: 0px;
+    }
+
+/* === === X-sm Mobile Start === ==== */
+
+    #mobile_part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .mobile_text {
+        padding-top: 60px;
+    }
+
+    .mobile_text h3 {
+        font-size: 21px;
+        padding-bottom: 16px;
+    }
+
+    .mobile_text p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .mobile_btm {
+        padding-left: 20px;
+    }
+
+    .mobile_btm p {
+        font-size: 13px;
+        vertical-align: 2px;
+    }
+
+/* === === X-sm Counter Start === ==== */
+
+    #counter_part {
+        padding-top: 80px;
+        padding-bottom: 45px;
+    }    
+
+    .counter_item {
+        padding-bottom: 40px;
+    }
+
+/* === === X-sm Recent_Posts Start === ==== */
+
+    #recent {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .blog_item {
+        margin-bottom: 20px;
+    }
+
+    .blog_text h3 {
+        font-size: 17px;
+    }
+
+/* === === X-sm Clients Start === ==== */
+
+    .client_olay {
+        padding-top: 43px;
+        padding-bottom: 80px;
+    }
+
+    #client .slick-dots {
+        bottom: -66px;
+    }
+
+/* === === X-sm Footer_Top Start === ==== */
+
+    #footer_top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .info_top h3 {
+        padding-top: 35px;
+    }
+
+    .foot_text_one p {
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .foot_text_one a {
+        padding-bottom: 15px;
+    }
+
+    .info_top h3 {
+        padding-top: 16px;
+    }
+
+/* === === X-sm Footer Start === ==== */
+
+    .footer_lt p {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer_rt p {
+        line-height: 20px;
+    }
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === sm Header Start === ==== */
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar-toggler .bar_sqr {
+        height: 45px;
+        width: 60px;
+        background: transparent;
+        border: 2px solid #998675;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        position: relative;
+        font-size: 18px;
+    }
+
+    .navbar-nav .nav-link::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        content: '';
+        height: 1px;
+        width: 0;
+        background: #c7b299;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+}
+
+    .navbar-nav .nav-link:hover::after {
+        opacity: 1;
+        visibility: visible;
+        width: 300px;
+    }
+
+    .fix_head_bg {
+        background: #221e1c;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .navbar-brand {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+
+/* === === sm Banner Start === ==== */
+
+    .ban_olay {
+        padding-top: 190px;
+        padding-bottom: 110px;
+    }
+
+    .ban_text h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+
+    .ban_text p {
+        padding: 0px 26px;
+    }
+
+    .arrow_right {
+        right: 20px;
+    }
+
+    .arrow_left {
+        left: 20px;
+    }
+	
+/* === === sm Purchase Start === ==== */
+
+    .purchase_text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .purchase_text p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .item_button {
+        text-align: center!important;
+    }
+
+/* === === sm Project Start === ==== */
+
+    .project_menu {
+        margin-bottom: 25px;
+    }
+
+    .project_menu button {
+        padding: 7px 10px 6px 10px;
+        margin-bottom: 10px;
+    }
+
+    .project_text h3 {
+        font-size: 15px;
+    }
+
+/* === === sm Video Start === ==== */
+
+    .video_olay {
+        padding-top: 116px;
+        padding-bottom: 124px;
+    }
+
+/* === === sm Mobile Start === ==== */
+
+    #mobile_part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        background: #fbfaf8;
+    }
+
+    .mobile_photo {
+        padding-top: 20px;
+    }
+
+    .mobile_text {
+        padding-top: 0;
+    }
+
+    .mobile_text h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .mobile_text p {
+        font-size: 12px;
+        line-height: 17px;
+        padding-bottom: 10px;
+    }
+
+    .mobile_btm {
+        padding-left: 0;
+    }
+
+    .mobile_btm p {
+        font-size: 12px;
+    }
+
+    .mobile_btm i {
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+/* === === sm Counter Start === ==== */
+
+    #counter_part {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }    
+
+    .counter_item {
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+/* === === sm Recent_Post Start === ==== */
+
+    #recent {
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+
+    .blog_item {
+        margin-bottom: 30px;
+    }
+
+    .blog_text h3 {
+        line-height: 25px;
+    }
+
+/* === === sm Client Start === ==== */
+
+    .client_olay {
+        padding-top: 54px;
+        padding-bottom: 84px;
+    }
+
+    #client .slick-dots {
+        bottom: -66px;
+    }
+
+/* === === sm Footer_Top Start === ==== */
+
+    .foot_text_one p {
+        padding-bottom: 10px;
+    }
+
+    .foot_text_one a {
+        padding-bottom: 14px;
+    }
+
+    #footer_top .sp_mg_tp {
+        margin-top: 0;
+    }
+
+/* === === sm Footer Start === ==== */
+
+    .footer_lt p {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer_rt p {
+        line-height: 20px;
+    }
+
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+	/* === === md Header Start === ==== */
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar-toggler .bar_sqr {
+        height: 45px;
+        width: 70px;
+        background: transparent;
+        border: 2px solid #998675;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        position: relative;
+        font-size: 18px;
+    }
+
+    .navbar-nav .nav-link::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        content: '';
+        height: 1px;
+        width: 0;
+        background: #c7b299;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+}
+
+    .navbar-nav .nav-link:hover::after {
+        opacity: 1;
+        visibility: visible;
+        width: 300px;
+    }
+
+    .fix_head_bg {
+        background: #221e1c;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+/* === === md Banner Start === ==== */
+
+    .ban_olay {
+        padding-top: 231px;
+        padding-bottom: 156px;
+    }
+
+    .ban_text h1 {
+        line-height: 65px;
+    }
+
+    .ban_text p {
+        padding: 0px 99px;
+    }
+
+    .arrow_right {
+        right: 5px;
+    }
+
+    .arrow_left {
+        left: 5px;
+    }
+
+/* === === md Service Start === ==== */
+
+    .serv_text h3 {
+        font-size: 17px;
+    }
+
+    .serv_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .serv_text p::after {
+        bottom: -20px;
+    }
+
+    .serv_text p::before {
+        bottom: -20px;
+    }
+
+/* === === md Purchase Start === ==== */
+
+    .purchase_text h3 {
+        font-size: 23px;
+    }
+
+    .purchase_text p {
+        font-size: 16px;
+    }
+
+    .item_button a {
+        padding: 13px 20px 12px 20px;
+    }
+
+/* === === md Video Start === ==== */
+
+    .video_olay {
+        padding-top: 133px;
+        padding-bottom: 138px;
+    }
+
+/* === === md Mobile Start === ==== */
+
+    #mobile_part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        background: #fbfaf8;
+    }
+
+    .mobile_photo {
+        padding-top: 12px;
+    }
+
+    .mobile_text {
+        padding-top: 0;
+    }
+
+    .mobile_text h3 {
+        font-size: 27px;
+        padding-bottom: 17px;
+    }
+
+    .mobile_text p {
+        padding-bottom: 14px;
+    }
+
+    .mobile_btm {
+        padding-left: 30px;
+    }
+
+/* === === md Counter Start === ==== */
+
+    #counter_part {
+        padding-top: 80px;
+        padding-bottom: 15px;
+    }    
+
+    .counter_item {
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+    .count_text h3 {
+        font-size: 40px;
+    }
+
+    .count_text p {
+        font-size: 9px;
+    }
+
+/* === === md Recent_Posts Start === ==== */
+
+    .blog_text h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .blog_text p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 8px;
+    }
+
+/* === === md Clients Start === ==== */
+
+    .client_olay {
+        padding-top: 72px;
+        padding-bottom: 100px;
+    }
+
+    #client .slick-dots {
+        bottom: -90px;
+    }
+
+/* === === md Footer_Top Start === ==== */
+
+    #footer_top .sp_mg_tp {
+        margin-top: 30px;
+    }
+
+    #footer_top .sp_pad_cl {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+/* === === md Footer Start === ==== */
+
+    .footer_lt p {
+        font-size: 11px;
+    }
+
+    .footer_rt p {
+        font-size: 11px;
+    }
+
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === lg Banner Start === ==== */
+
+    .ban_olay {
+        padding-top: 316px;
+        padding-bottom: 200px;
+    }
+
+    .ban_text h1 {
+        line-height: 60px;
+    }
+
+    .ban_text p {
+        padding: 0px 180px;
+    }
+
+/* === === lg Project Start === ==== */
+
+    .project_menu button {
+        padding: 8px 20px 7px 20px;
+    }
+
+/* === === lg Video Start === ==== */
+
+    .video_olay {
+        padding-top: 163px;
+        padding-bottom: 157px;
+    }
+
+/* === === lg Mobile Start === ==== */
+
+    .mobile_text {
+        padding-top: 85px;
+    }
+
+/* === === lg Recent_Posts Start === ==== */
+
+    .blog_text h3 {
+        font-size: 17px;
+    }
+
+/* === === lg Clients Start === ==== */
+
+    .client_olay {
+        padding-top: 123px;
+        padding-bottom: 154px;
+    }
+
+    #client .slick-dots {
+        bottom: -125px;
+    }
+
+}
+
+/* ==== ==== 5. Extra-Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+	/* === === xl Banner Start === ==== */
+
+    .ban_text h1 {
+        line-height: 75px;
+    }
+	
+}
+
+/* ==== ==== 6. Extra-Extra-Large Devices ==== ==== */
+/* ==== ==== (xxl) Screen ==== ==== */
+
+@media(min-width: 1400px) {
+
+	/* === === xxl Banner Start === ==== */
+
+    .ban_text h1 {
+        font-size: 55px;
+        line-height: 90px;
+    }
+    
+}
